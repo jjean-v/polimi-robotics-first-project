@@ -2,5 +2,3 @@
 colcon_ws/log/
 colcon_ws/build/
 colcon_ws/install/
-
-bags/
