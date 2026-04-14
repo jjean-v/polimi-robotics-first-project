@@ -1,6 +1,0 @@
-{
-  "package_name": "custom_srv_demo",
-  "non_idl_tuples": [
-    "/home/robotics/colcon_ws/src/custom_srv_demo:srv/CanMove.srv"
-  ]
-}

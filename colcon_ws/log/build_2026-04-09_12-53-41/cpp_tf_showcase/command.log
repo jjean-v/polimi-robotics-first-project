@@ -1,6 +1,0 @@
-Invoking command in '/home/robotics/colcon_ws/build/cpp_tf_showcase': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/colcon_ws/src/cpp_tf_showcase -DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/cpp_tf_showcase
-Invoked command in '/home/robotics/colcon_ws/build/cpp_tf_showcase' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/colcon_ws/src/cpp_tf_showcase -DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/cpp_tf_showcase
-Invoking command in '/home/robotics/colcon_ws/build/cpp_tf_showcase': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_tf_showcase -- -j8 -l8
-Invoked command in '/home/robotics/colcon_ws/build/cpp_tf_showcase' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_tf_showcase -- -j8 -l8
-Invoking command in '/home/robotics/colcon_ws/build/cpp_tf_showcase': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_tf_showcase
-Invoked command in '/home/robotics/colcon_ws/build/cpp_tf_showcase' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_tf_showcase

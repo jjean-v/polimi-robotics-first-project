@@ -1,6 +1,0 @@
-Invoking command in '/home/robotics/colcon_ws/build/cpp_subpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/colcon_ws/src/cpp_subpub -DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/cpp_subpub
-Invoked command in '/home/robotics/colcon_ws/build/cpp_subpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/colcon_ws/src/cpp_subpub -DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/cpp_subpub
-Invoking command in '/home/robotics/colcon_ws/build/cpp_subpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_subpub -- -j8 -l8
-Invoked command in '/home/robotics/colcon_ws/build/cpp_subpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_subpub -- -j8 -l8
-Invoking command in '/home/robotics/colcon_ws/build/cpp_subpub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_subpub
-Invoked command in '/home/robotics/colcon_ws/build/cpp_subpub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_subpub

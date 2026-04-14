@@ -1,8 +1,0 @@
-setup.py
-custom_srv_demo/__init__.py
-custom_srv_demo.egg-info/PKG-INFO
-custom_srv_demo.egg-info/SOURCES.txt
-custom_srv_demo.egg-info/dependency_links.txt
-custom_srv_demo.egg-info/top_level.txt
-custom_srv_demo/srv/__init__.py
-custom_srv_demo/srv/_can_move.py
