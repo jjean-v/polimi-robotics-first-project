@@ -1,0 +1,6 @@
+Invoking command in '/home/robotics/colcon_ws/build/custom_msg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/colcon_ws/src/custom_msg_demo -DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/custom_msg_demo
+Invoked command in '/home/robotics/colcon_ws/build/custom_msg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/colcon_ws/src/custom_msg_demo -DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/custom_msg_demo
+Invoking command in '/home/robotics/colcon_ws/build/custom_msg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/custom_msg_demo -- -j8 -l8
+Invoked command in '/home/robotics/colcon_ws/build/custom_msg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/custom_msg_demo -- -j8 -l8
+Invoking command in '/home/robotics/colcon_ws/build/custom_msg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/custom_msg_demo
+Invoked command in '/home/robotics/colcon_ws/build/custom_msg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/custom_msg_demo

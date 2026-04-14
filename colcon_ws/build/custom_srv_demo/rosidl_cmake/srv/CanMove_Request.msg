@@ -1,0 +1,2 @@
+float32 battery_level
+bool obstacle_detected

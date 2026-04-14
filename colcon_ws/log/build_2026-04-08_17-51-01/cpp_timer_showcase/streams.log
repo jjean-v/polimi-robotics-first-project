@@ -1,0 +1,31 @@
+[0.051s] Invoking command in '/home/robotics/colcon_ws/build/cpp_timer_showcase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_timer_showcase -- -j8 -l8
+[0.165s] [ 25%] Built target basic_timer_node
+[0.186s] [ 50%] Built target multi_timer_node
+[0.203s] [ 75%] Built target control_timer_node
+[0.203s] [100%] Built target callback_group_timers_node
+[0.246s] Invoked command in '/home/robotics/colcon_ws/build/cpp_timer_showcase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_timer_showcase -- -j8 -l8
+[0.246s] Invoking command in '/home/robotics/colcon_ws/build/cpp_timer_showcase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_timer_showcase
+[0.270s] -- Install configuration: ""
+[0.270s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/basic_timer_node
+[0.270s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/multi_timer_node
+[0.270s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/control_timer_node
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/callback_group_timers_node
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/launch
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/launch/timers_demo.launch.py
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/launch/timers_demo.launch.py:Zone.Identifier
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/ament_index/resource_index/package_run_dependencies/cpp_timer_showcase
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/ament_index/resource_index/parent_prefix_path/cpp_timer_showcase
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/ament_prefix_path.sh
+[0.272s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/ament_prefix_path.dsv
+[0.273s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/path.sh
+[0.273s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/path.dsv
+[0.273s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.bash
+[0.273s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.sh
+[0.273s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.zsh
+[0.273s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.dsv
+[0.273s] -- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/package.dsv
+[0.275s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/ament_index/resource_index/packages/cpp_timer_showcase
+[0.275s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/cmake/cpp_timer_showcaseConfig.cmake
+[0.275s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/cmake/cpp_timer_showcaseConfig-version.cmake
+[0.275s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/package.xml
+[0.329s] Invoked command in '/home/robotics/colcon_ws/build/cpp_timer_showcase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_timer_showcase

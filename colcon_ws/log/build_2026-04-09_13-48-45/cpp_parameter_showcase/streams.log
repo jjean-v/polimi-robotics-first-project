@@ -1,0 +1,36 @@
+[0.083s] Invoking command in '/home/robotics/colcon_ws/build/cpp_parameter_showcase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_parameter_showcase -- -j8 -l8
+[0.281s] [ 30%] Built target basic_parameters_node
+[0.281s] [ 40%] Built target validated_parameters_node
+[0.300s] [ 60%] Built target parameter_monitor_node
+[0.356s] [100%] Built target flexible_parameters_node
+[0.360s] [100%] Built target local_only_parameters_node
+[0.562s] Invoked command in '/home/robotics/colcon_ws/build/cpp_parameter_showcase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_parameter_showcase -- -j8 -l8
+[0.563s] Invoking command in '/home/robotics/colcon_ws/build/cpp_parameter_showcase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_parameter_showcase
+[0.594s] -- Install configuration: ""
+[0.595s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/basic_parameters_node
+[0.597s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/validated_parameters_node
+[0.597s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/parameter_monitor_node
+[0.597s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/flexible_parameters_node
+[0.598s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/local_only_parameters_node
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/launch
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/launch/parameter_showcase.launch.py:Zone.Identifier
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/launch/parameter_showcase.launch.py
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/config
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/config/demo_params.yaml:Zone.Identifier
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/config/demo_params.yaml
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_showcase
+[0.603s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_showcase
+[0.604s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/ament_prefix_path.sh
+[0.604s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/ament_prefix_path.dsv
+[0.604s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/path.sh
+[0.604s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/path.dsv
+[0.604s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.bash
+[0.604s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.sh
+[0.607s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.zsh
+[0.607s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.dsv
+[0.607s] -- Installing: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/package.dsv
+[0.608s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/ament_index/resource_index/packages/cpp_parameter_showcase
+[0.608s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/cmake/cpp_parameter_showcaseConfig.cmake
+[0.608s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/cmake/cpp_parameter_showcaseConfig-version.cmake
+[0.608s] -- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/package.xml
+[0.623s] Invoked command in '/home/robotics/colcon_ws/build/cpp_parameter_showcase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_parameter_showcase

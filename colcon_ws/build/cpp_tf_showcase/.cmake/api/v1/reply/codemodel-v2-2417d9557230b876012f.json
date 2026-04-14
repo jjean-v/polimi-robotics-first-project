@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-15dd05991bc61993f176.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_tf_showcase",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_tf_showcase_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_tf_showcase_uninstall-da8cc8d9974a52efebb6.json",
+					"name" : "cpp_tf_showcase_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_static_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_static_tf_broadcaster-341d373aef546db4f5b0.json",
+					"name" : "sensor_static_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_lookup_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_lookup_demo-f255fabf562185c5c8e0.json",
+					"name" : "tf_lookup_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf_broadcaster-4f6b6c2740d1f890e261.json",
+					"name" : "turtle_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6a621fef7d253c7fb2be.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/colcon_ws/build/cpp_tf_showcase",
+		"source" : "/home/robotics/colcon_ws/src/cpp_tf_showcase"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

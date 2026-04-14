@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_msg_demo__py",
+		"source" : "/home/robotics/colcon_ws/build/custom_msg_demo/custom_msg_demo__py"
+	}
+}

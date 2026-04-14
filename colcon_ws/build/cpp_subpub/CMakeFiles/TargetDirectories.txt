@@ -1,0 +1,10 @@
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/uninstall.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/cpp_subpub_uninstall.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/subpub.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/test.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/edit_cache.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/rebuild_cache.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/list_install_components.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/install.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/install/local.dir
+/home/robotics/colcon_ws/build/cpp_subpub/CMakeFiles/install/strip.dir

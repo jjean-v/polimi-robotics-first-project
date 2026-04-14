@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cdb8db2907bd7047d48e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_timer_showcase",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "basic_timer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic_timer_node-d66b341ed136f4c05eee.json",
+					"name" : "basic_timer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "callback_group_timers_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-callback_group_timers_node-c636d8702938ca704a66.json",
+					"name" : "callback_group_timers_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_timer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_timer_node-faae36efdbd8c13bbff2.json",
+					"name" : "control_timer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_timer_showcase_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_timer_showcase_uninstall-df964823e931cc0e0631.json",
+					"name" : "cpp_timer_showcase_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_timer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_timer_node-87fea6dde27cc584faba.json",
+					"name" : "multi_timer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-76b2da6af16a0f502830.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/colcon_ws/build/cpp_timer_showcase",
+		"source" : "/home/robotics/colcon_ws/src/cpp_timer_showcase"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

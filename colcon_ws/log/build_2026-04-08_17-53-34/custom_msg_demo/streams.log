@@ -1,0 +1,148 @@
+[0.037s] Invoking command in '/home/robotics/colcon_ws/build/custom_msg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/custom_msg_demo -- -j8 -l8
+[0.150s] [  2%] Built target custom_msg_demo__cpp
+[0.161s] [ 11%] Built target custom_msg_demo__rosidl_generator_c
+[0.176s] [ 11%] Built target ament_cmake_python_copy_custom_msg_demo
+[0.212s] [ 20%] Built target custom_msg_demo__rosidl_typesupport_cpp
+[0.213s] [ 28%] Built target custom_msg_demo__rosidl_typesupport_introspection_cpp
+[0.213s] [ 37%] Built target custom_msg_demo__rosidl_typesupport_fastrtps_cpp
+[0.225s] [ 45%] Built target custom_msg_demo__rosidl_typesupport_c
+[0.251s] [ 54%] Built target custom_msg_demo__rosidl_typesupport_introspection_c
+[0.251s] [ 62%] Built target custom_msg_demo__rosidl_typesupport_fastrtps_c
+[0.264s] [ 62%] Built target custom_msg_demo
+[0.272s] [ 68%] Built target status_publisher
+[0.274s] [ 74%] Built target status_subscriber
+[0.294s] [ 77%] Built target custom_msg_demo__py
+[0.326s] [ 82%] Built target custom_msg_demo__rosidl_generator_py
+[0.359s] [ 94%] Built target custom_msg_demo__rosidl_typesupport_fastrtps_c__pyext
+[0.359s] [ 94%] Built target custom_msg_demo__rosidl_typesupport_c__pyext
+[0.359s] [100%] Built target custom_msg_demo__rosidl_typesupport_introspection_c__pyext
+[0.591s] running egg_info
+[0.592s] writing custom_msg_demo.egg-info/PKG-INFO
+[0.592s] writing dependency_links to custom_msg_demo.egg-info/dependency_links.txt
+[0.592s] writing top-level names to custom_msg_demo.egg-info/top_level.txt
+[0.595s] reading manifest file 'custom_msg_demo.egg-info/SOURCES.txt'
+[0.595s] writing manifest file 'custom_msg_demo.egg-info/SOURCES.txt'
+[0.629s] [100%] Built target ament_cmake_python_build_custom_msg_demo_egg
+[0.643s] Invoked command in '/home/robotics/colcon_ws/build/custom_msg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/custom_msg_demo -- -j8 -l8
+[0.645s] Invoking command in '/home/robotics/colcon_ws/build/custom_msg_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/custom_msg_demo
+[0.655s] -- Install configuration: ""
+[0.656s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/rosidl_interfaces/custom_msg_demo
+[0.658s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo
+[0.658s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg
+[0.658s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/robot_status.h
+[0.658s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail
+[0.658s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__functions.h
+[0.659s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.h
+[0.659s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__functions.c
+[0.659s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__struct.h
+[0.659s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_generator_c__visibility_control.h
+[0.659s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/library_path.sh
+[0.660s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/library_path.dsv
+[0.660s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_generator_c.so
+[0.660s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo
+[0.660s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg
+[0.661s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail
+[0.662s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[0.662s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_fastrtps_c.so
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__builder.hpp
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__struct.hpp
+[0.663s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.hpp
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__traits.hpp
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/robot_status.hpp
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/dds_fastrtps
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_fastrtps_cpp.so
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail
+[0.664s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.c
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_introspection_c.so
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_c.so
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.cpp
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_introspection_cpp.so
+[0.665s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_cpp.so
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/pythonpath.sh
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/pythonpath.dsv
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info
+[0.666s] -- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.666s] -- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[0.666s] -- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/top_level.txt
+[0.666s] -- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg/_robot_status.py
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg/__init__.py
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg/_robot_status_s.c
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/_custom_msg_demo_s.ep.rosidl_typesupport_c.c
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/_custom_msg_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/__init__.py
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/_custom_msg_demo_s.ep.rosidl_typesupport_introspection_c.c
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/libcustom_msg_demo__rosidl_generator_py.so
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.666s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.700s] Listing '/home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo'...
+[0.701s] Listing '/home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg'...
+[0.707s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.707s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.707s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.707s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_generator_py.so
+[0.708s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/msg/RobotStatus.idl
+[0.708s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/msg/RobotStatus.msg
+[0.708s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/custom_msg_demo/status_publisher
+[0.708s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/custom_msg_demo/status_subscriber
+[0.709s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/package_run_dependencies/custom_msg_demo
+[0.709s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/parent_prefix_path/custom_msg_demo
+[0.709s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/ament_prefix_path.sh
+[0.710s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/ament_prefix_path.dsv
+[0.710s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/path.sh
+[0.710s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/path.dsv
+[0.710s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.bash
+[0.710s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.sh
+[0.710s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.zsh
+[0.711s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.dsv
+[0.711s] -- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/package.dsv
+[0.711s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/packages/custom_msg_demo
+[0.711s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_cExport.cmake
+[0.711s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_cExport-noconfig.cmake
+[0.712s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[0.712s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.712s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_cppExport.cmake
+[0.712s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.712s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.713s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cExport.cmake
+[0.713s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.713s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cExport.cmake
+[0.713s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cExport-noconfig.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cppExport.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cppExport.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_pyExport.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_pyExport-noconfig.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/rosidl_cmake-extras.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_targets-extras.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.714s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.715s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demoConfig.cmake
+[0.715s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demoConfig-version.cmake
+[0.715s] -- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/package.xml
+[0.716s] Invoked command in '/home/robotics/colcon_ws/build/custom_msg_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/custom_msg_demo

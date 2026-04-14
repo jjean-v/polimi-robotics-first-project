@@ -1,0 +1,563 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (cpp_parameter_showcase) JobQueued: {'identifier': 'cpp_parameter_showcase', 'dependencies': OrderedDict()}
+[0.000314] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000372] (cpp_timer_showcase) JobQueued: {'identifier': 'cpp_timer_showcase', 'dependencies': OrderedDict()}
+[0.000426] (custom_msg_demo) JobQueued: {'identifier': 'custom_msg_demo', 'dependencies': OrderedDict()}
+[0.000480] (custom_srv_demo) JobQueued: {'identifier': 'custom_srv_demo', 'dependencies': OrderedDict()}
+[0.000550] (cpp_parameter_showcase) JobStarted: {'identifier': 'cpp_parameter_showcase'}
+[0.036060] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.047044] (cpp_timer_showcase) JobStarted: {'identifier': 'cpp_timer_showcase'}
+[0.055203] (custom_msg_demo) JobStarted: {'identifier': 'custom_msg_demo'}
+[0.063708] (custom_srv_demo) JobStarted: {'identifier': 'custom_srv_demo'}
+[0.072305] (cpp_parameter_showcase) JobProgress: {'identifier': 'cpp_parameter_showcase', 'progress': 'cmake'}
+[0.075900] (cpp_parameter_showcase) JobProgress: {'identifier': 'cpp_parameter_showcase', 'progress': 'build'}
+[0.076004] (cpp_parameter_showcase) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics/colcon_ws/build/cpp_parameter_showcase', '--', '-j8', '-l8'], 'cwd': '/home/robotics/colcon_ws/build/cpp_parameter_showcase', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_parameter_showcase'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083026] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.085641] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.087484] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics/colcon_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/robotics/colcon_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.089972] (cpp_timer_showcase) JobProgress: {'identifier': 'cpp_timer_showcase', 'progress': 'cmake'}
+[0.092312] (cpp_timer_showcase) Command: {'cmd': ['/usr/bin/cmake', '/home/robotics/colcon_ws/src/cpp_timer_showcase', '-DCMAKE_INSTALL_PREFIX=/home/robotics/colcon_ws/install/cpp_timer_showcase'], 'cwd': '/home/robotics/colcon_ws/build/cpp_timer_showcase', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_timer_showcase'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095745] (custom_msg_demo) JobProgress: {'identifier': 'custom_msg_demo', 'progress': 'cmake'}
+[0.100503] (custom_msg_demo) JobProgress: {'identifier': 'custom_msg_demo', 'progress': 'build'}
+[0.102711] (-) TimerEvent: {}
+[0.103641] (custom_msg_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics/colcon_ws/build/custom_msg_demo', '--', '-j8', '-l8'], 'cwd': '/home/robotics/colcon_ws/build/custom_msg_demo', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/custom_msg_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.108838] (custom_srv_demo) JobProgress: {'identifier': 'custom_srv_demo', 'progress': 'cmake'}
+[0.110691] (custom_srv_demo) JobProgress: {'identifier': 'custom_srv_demo', 'progress': 'build'}
+[0.111195] (custom_srv_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics/colcon_ws/build/custom_srv_demo', '--', '-j8', '-l8'], 'cwd': '/home/robotics/colcon_ws/build/custom_srv_demo', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/custom_srv_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.202911] (-) TimerEvent: {}
+[0.294630] (cpp_parameter_showcase) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target basic_parameters_node\x1b[0m\n'}
+[0.295018] (cpp_parameter_showcase) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target validated_parameters_node\x1b[0m\n'}
+[0.303073] (cpp_parameter_showcase) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target local_only_parameters_node\x1b[0m\n'}
+[0.303333] (-) TimerEvent: {}
+[0.309625] (cpp_parameter_showcase) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target parameter_monitor_node\x1b[0m\n'}
+[0.309938] (cpp_parameter_showcase) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flexible_parameters_node\x1b[0m\n'}
+[0.322238] (custom_msg_demo) StdoutLine: {'line': b'[  2%] Built target custom_msg_demo__cpp\n'}
+[0.325661] (custom_msg_demo) StdoutLine: {'line': b'[ 11%] Built target custom_msg_demo__rosidl_generator_c\n'}
+[0.330110] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.330609] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[0.333347] (cpp_parameter_showcase) StdoutLine: {'line': b'[ 20%] Built target basic_parameters_node\n'}
+[0.338320] (cpp_parameter_showcase) StdoutLine: {'line': b'[ 40%] Built target validated_parameters_node\n'}
+[0.339567] (custom_srv_demo) StdoutLine: {'line': b'[  2%] Built target custom_srv_demo__cpp\n'}
+[0.339785] (custom_srv_demo) StdoutLine: {'line': b'[ 11%] Built target custom_srv_demo__rosidl_generator_c\n'}
+[0.350135] (cpp_parameter_showcase) StdoutLine: {'line': b'[ 60%] Built target parameter_monitor_node\n'}
+[0.355113] (custom_msg_demo) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_custom_msg_demo\n'}
+[0.356456] (cpp_parameter_showcase) StdoutLine: {'line': b'[ 80%] Built target flexible_parameters_node\n'}
+[0.361854] (custom_srv_demo) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_custom_srv_demo\n'}
+[0.362982] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.370842] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[0.370955] (cpp_parameter_showcase) StdoutLine: {'line': b'[100%] Built target local_only_parameters_node\n'}
+[0.385535] (custom_msg_demo) StdoutLine: {'line': b'[ 20%] Built target custom_msg_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[0.397768] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics/colcon_ws/build/cpp_pubsub'], 'cwd': '/home/robotics/colcon_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.398694] (custom_msg_demo) StdoutLine: {'line': b'[ 28%] Built target custom_msg_demo__rosidl_typesupport_introspection_c\n'}
+[0.398922] (custom_msg_demo) StdoutLine: {'line': b'[ 37%] Built target custom_msg_demo__rosidl_typesupport_cpp\n'}
+[0.403015] (cpp_parameter_showcase) CommandEnded: {'returncode': 0}
+[0.412269] (-) TimerEvent: {}
+[0.414005] (cpp_parameter_showcase) JobProgress: {'identifier': 'cpp_parameter_showcase', 'progress': 'install'}
+[0.414248] (cpp_parameter_showcase) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics/colcon_ws/build/cpp_parameter_showcase'], 'cwd': '/home/robotics/colcon_ws/build/cpp_parameter_showcase', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_parameter_showcase'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.416017] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.416157] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[0.416250] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[0.417758] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub//launch\n'}
+[0.420269] (custom_msg_demo) StdoutLine: {'line': b'[ 45%] Built target custom_msg_demo__rosidl_typesupport_introspection_cpp\n'}
+[0.421687] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub//launch/launch1.launch.py\n'}
+[0.425542] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub//launch/launch2.launch.py\n'}
+[0.425814] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub//launch/launch2.launch.py:Zone.Identifier\n'}
+[0.425915] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub//launch/launch1.launch.py:Zone.Identifier\n'}
+[0.426002] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[0.426119] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[0.426214] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[0.426295] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[0.426376] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[0.426461] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[0.426569] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[0.426666] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[0.426751] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[0.426981] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[0.427106] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[0.427196] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[0.427279] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[0.427363] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[0.427445] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[0.427552] (custom_srv_demo) StdoutLine: {'line': b'[ 20%] Built target custom_srv_demo__rosidl_typesupport_introspection_cpp\n'}
+[0.429437] (custom_msg_demo) StdoutLine: {'line': b'[ 54%] Built target custom_msg_demo__rosidl_typesupport_fastrtps_c\n'}
+[0.432360] (custom_msg_demo) StdoutLine: {'line': b'[ 62%] Built target custom_msg_demo__rosidl_typesupport_c\n'}
+[0.432754] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.433307] (custom_srv_demo) StdoutLine: {'line': b'[ 28%] Built target custom_srv_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[0.433525] (custom_srv_demo) StdoutLine: {'line': b'[ 37%] Built target custom_srv_demo__rosidl_typesupport_cpp\n'}
+[0.433794] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.436418] (custom_srv_demo) StdoutLine: {'line': b'[ 45%] Built target custom_srv_demo__rosidl_typesupport_fastrtps_c\n'}
+[0.438610] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/basic_parameters_node\n'}
+[0.440275] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/validated_parameters_node\n'}
+[0.444873] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/parameter_monitor_node\n'}
+[0.449353] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/flexible_parameters_node\n'}
+[0.449707] (custom_srv_demo) StdoutLine: {'line': b'[ 54%] Built target custom_srv_demo__rosidl_typesupport_introspection_c\n'}
+[0.450246] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/lib/cpp_parameter_showcase/local_only_parameters_node\n'}
+[0.450399] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/launch\n'}
+[0.450482] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/launch/parameter_showcase.launch.py:Zone.Identifier\n'}
+[0.450569] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/launch/parameter_showcase.launch.py\n'}
+[0.450655] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/config\n'}
+[0.450737] (custom_srv_demo) StdoutLine: {'line': b'[ 62%] Built target custom_srv_demo__rosidl_typesupport_c\n'}
+[0.451156] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/config/demo_params.yaml:Zone.Identifier\n'}
+[0.451284] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/config/demo_params.yaml\n'}
+[0.451374] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_showcase\n'}
+[0.451458] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_showcase\n'}
+[0.451542] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/ament_prefix_path.sh\n'}
+[0.451631] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/ament_prefix_path.dsv\n'}
+[0.451709] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/path.sh\n'}
+[0.451807] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/environment/path.dsv\n'}
+[0.452334] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.bash\n'}
+[0.452730] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.sh\n'}
+[0.453280] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.zsh\n'}
+[0.453652] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/local_setup.dsv\n'}
+[0.453752] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/package.dsv\n'}
+[0.453841] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/ament_index/resource_index/packages/cpp_parameter_showcase\n'}
+[0.453927] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/cmake/cpp_parameter_showcaseConfig.cmake\n'}
+[0.454015] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/cmake/cpp_parameter_showcaseConfig-version.cmake\n'}
+[0.454110] (cpp_parameter_showcase) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/cpp_parameter_showcase/share/cpp_parameter_showcase/package.xml\n'}
+[0.479257] (custom_msg_demo) StdoutLine: {'line': b'[ 62%] Built target custom_msg_demo\n'}
+[0.479521] (custom_msg_demo) StdoutLine: {'line': b'[ 68%] Built target status_publisher\n'}
+[0.484049] (custom_msg_demo) StdoutLine: {'line': b'[ 74%] Built target status_subscriber\n'}
+[0.494492] (custom_srv_demo) StdoutLine: {'line': b'[ 62%] Built target custom_srv_demo\n'}
+[0.494705] (custom_srv_demo) StdoutLine: {'line': b'[ 68%] Built target can_move_server\n'}
+[0.495664] (custom_srv_demo) StdoutLine: {'line': b'[ 74%] Built target can_move_client\n'}
+[0.505873] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[0.509908] (cpp_parameter_showcase) CommandEnded: {'returncode': 0}
+[0.512482] (-) TimerEvent: {}
+[0.522027] (custom_msg_demo) StdoutLine: {'line': b'[ 77%] Built target custom_msg_demo__py\n'}
+[0.525650] (custom_srv_demo) StdoutLine: {'line': b'[ 77%] Built target custom_srv_demo__py\n'}
+[0.526364] (cpp_timer_showcase) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.536520] (cpp_parameter_showcase) JobEnded: {'identifier': 'cpp_parameter_showcase', 'rc': 0}
+[0.558625] (custom_msg_demo) StdoutLine: {'line': b'[ 82%] Built target custom_msg_demo__rosidl_generator_py\n'}
+[0.563289] (custom_srv_demo) StdoutLine: {'line': b'[ 82%] Built target custom_srv_demo__rosidl_generator_py\n'}
+[0.598262] (custom_msg_demo) StdoutLine: {'line': b'[ 88%] Built target custom_msg_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.599546] (custom_msg_demo) StdoutLine: {'line': b'[ 94%] Built target custom_msg_demo__rosidl_typesupport_c__pyext\n'}
+[0.604154] (custom_srv_demo) StdoutLine: {'line': b'[ 88%] Built target custom_srv_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[0.604407] (custom_msg_demo) StdoutLine: {'line': b'[100%] Built target custom_msg_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[0.604806] (custom_srv_demo) StdoutLine: {'line': b'[ 94%] Built target custom_srv_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.605182] (custom_srv_demo) StdoutLine: {'line': b'[100%] Built target custom_srv_demo__rosidl_typesupport_c__pyext\n'}
+[0.612621] (-) TimerEvent: {}
+[0.693572] (cpp_timer_showcase) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.708386] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.712762] (-) TimerEvent: {}
+[0.761428] (custom_msg_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.762724] (custom_msg_demo) StdoutLine: {'line': b'writing custom_msg_demo.egg-info/PKG-INFO\n'}
+[0.763508] (custom_msg_demo) StdoutLine: {'line': b'writing dependency_links to custom_msg_demo.egg-info/dependency_links.txt\n'}
+[0.763852] (custom_msg_demo) StdoutLine: {'line': b'writing top-level names to custom_msg_demo.egg-info/top_level.txt\n'}
+[0.769140] (custom_msg_demo) StdoutLine: {'line': b"reading manifest file 'custom_msg_demo.egg-info/SOURCES.txt'\n"}
+[0.770497] (custom_msg_demo) StdoutLine: {'line': b"writing manifest file 'custom_msg_demo.egg-info/SOURCES.txt'\n"}
+[0.798898] (custom_srv_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.799702] (custom_srv_demo) StdoutLine: {'line': b'writing custom_srv_demo.egg-info/PKG-INFO\n'}
+[0.800206] (custom_srv_demo) StdoutLine: {'line': b'writing dependency_links to custom_srv_demo.egg-info/dependency_links.txt\n'}
+[0.800562] (custom_srv_demo) StdoutLine: {'line': b'writing top-level names to custom_srv_demo.egg-info/top_level.txt\n'}
+[0.803012] (custom_srv_demo) StdoutLine: {'line': b"reading manifest file 'custom_srv_demo.egg-info/SOURCES.txt'\n"}
+[0.804362] (custom_srv_demo) StdoutLine: {'line': b"writing manifest file 'custom_srv_demo.egg-info/SOURCES.txt'\n"}
+[0.806779] (custom_msg_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_msg_demo_egg\n'}
+[0.812944] (-) TimerEvent: {}
+[0.815829] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.824187] (cpp_timer_showcase) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.825002] (custom_msg_demo) CommandEnded: {'returncode': 0}
+[0.825682] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.826335] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.827206] (custom_msg_demo) JobProgress: {'identifier': 'custom_msg_demo', 'progress': 'install'}
+[0.828767] (custom_msg_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics/colcon_ws/build/custom_msg_demo'], 'cwd': '/home/robotics/colcon_ws/build/custom_msg_demo', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/custom_msg_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.833082] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.840167] (custom_srv_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_srv_demo_egg\n'}
+[0.841413] (custom_msg_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.841836] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/rosidl_interfaces/custom_msg_demo\n'}
+[0.842284] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo\n'}
+[0.842555] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg\n'}
+[0.843063] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/robot_status.h\n'}
+[0.843201] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail\n'}
+[0.843544] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__functions.h\n'}
+[0.843658] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.h\n'}
+[0.843851] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__functions.c\n'}
+[0.844174] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__struct.h\n'}
+[0.844274] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.844353] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/library_path.sh\n'}
+[0.844430] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/library_path.dsv\n'}
+[0.844973] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_generator_c.so\n'}
+[0.845314] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo\n'}
+[0.845639] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg\n'}
+[0.846015] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail\n'}
+[0.846383] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.846704] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.847641] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[0.848257] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo\n'}
+[0.849298] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg\n'}
+[0.850210] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.850384] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail\n'}
+[0.850650] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__builder.hpp\n'}
+[0.851037] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__struct.hpp\n'}
+[0.851239] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.hpp\n'}
+[0.851357] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__traits.hpp\n'}
+[0.851542] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/robot_status.hpp\n'}
+[0.852106] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo\n'}
+[0.852240] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg\n'}
+[0.852342] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.852445] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail\n'}
+[0.852723] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/dds_fastrtps\n'}
+[0.852978] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.854432] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.854716] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo\n'}
+[0.855740] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg\n'}
+[0.855964] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail\n'}
+[0.856358] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.c\n'}
+[0.856544] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[0.856756] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.857068] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_introspection_c.so\n'}
+[0.857923] (custom_srv_demo) CommandEnded: {'returncode': 0}
+[0.858891] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_c.so\n'}
+[0.859257] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo\n'}
+[0.859720] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg\n'}
+[0.859879] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail\n'}
+[0.860046] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.860399] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/include/custom_msg_demo/custom_msg_demo/msg/detail/robot_status__type_support.cpp\n'}
+[0.860655] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[0.861638] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_typesupport_cpp.so\n'}
+[0.862002] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/pythonpath.sh\n'}
+[0.862121] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/pythonpath.dsv\n'}
+[0.862342] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info\n'}
+[0.862914] (custom_msg_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.863109] (custom_srv_demo) JobProgress: {'identifier': 'custom_srv_demo', 'progress': 'install'}
+[0.863540] (custom_msg_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.863717] (custom_msg_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.863875] (custom_msg_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.864020] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo\n'}
+[0.864162] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg\n'}
+[0.864349] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg/_robot_status.py\n'}
+[0.866480] (custom_srv_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics/colcon_ws/build/custom_srv_demo'], 'cwd': '/home/robotics/colcon_ws/build/custom_srv_demo', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/custom_srv_demo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.867483] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg/__init__.py\n'}
+[0.867716] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg/_robot_status_s.c\n'}
+[0.867919] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/_custom_msg_demo_s.ep.rosidl_typesupport_c.c\n'}
+[0.868112] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.868646] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/_custom_msg_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.868738] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/__init__.py\n'}
+[0.868820] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/_custom_msg_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.868898] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/libcustom_msg_demo__rosidl_generator_py.so\n'}
+[0.868976] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.869055] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.875438] (custom_srv_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.875778] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/ament_index/resource_index/rosidl_interfaces/custom_srv_demo\n'}
+[0.875914] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo\n'}
+[0.876163] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg\n'}
+[0.876763] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.877216] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv\n'}
+[0.878207] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail\n'}
+[0.878812] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__type_support.h\n'}
+[0.878923] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__functions.h\n'}
+[0.878991] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__functions.c\n'}
+[0.879071] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__struct.h\n'}
+[0.879526] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/can_move.h\n'}
+[0.879684] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/library_path.sh\n'}
+[0.879754] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/library_path.dsv\n'}
+[0.882522] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_generator_c.so\n'}
+[0.882892] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo\n'}
+[0.883118] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg\n'}
+[0.883373] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.883529] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv\n'}
+[0.883833] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail\n'}
+[0.884074] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__rosidl_typesupport_fastrtps_c.h\n'}
+[0.885492] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[0.885826] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo\n'}
+[0.886038] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg\n'}
+[0.886507] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.886671] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv\n'}
+[0.887086] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/can_move.hpp\n'}
+[0.887207] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail\n'}
+[0.887704] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__traits.hpp\n'}
+[0.887914] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__struct.hpp\n'}
+[0.887996] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__type_support.hpp\n'}
+[0.888072] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__builder.hpp\n'}
+[0.888149] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo\n'}
+[0.888432] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg\n'}
+[0.888806] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.889128] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv\n'}
+[0.889312] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail\n'}
+[0.889878] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/dds_fastrtps\n'}
+[0.890325] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.891272] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.891564] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo\n'}
+[0.891987] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg\n'}
+[0.892538] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.892676] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv\n'}
+[0.893019] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail\n'}
+[0.893624] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__rosidl_typesupport_introspection_c.h\n'}
+[0.893750] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__type_support.c\n'}
+[0.894354] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_typesupport_introspection_c.so\n'}
+[0.895139] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_typesupport_c.so\n'}
+[0.895391] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo\n'}
+[0.895668] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv\n'}
+[0.896104] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail\n'}
+[0.896710] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896961] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/include/custom_srv_demo/custom_srv_demo/srv/detail/can_move__type_support.cpp\n'}
+[0.897950] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[0.898909] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_typesupport_cpp.so\n'}
+[0.899126] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/pythonpath.sh\n'}
+[0.899534] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/pythonpath.dsv\n'}
+[0.899857] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo-0.0.0-py3.10.egg-info\n'}
+[0.899968] (custom_srv_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.900244] (custom_srv_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.900353] (custom_srv_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.900635] (custom_srv_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.901008] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo\n'}
+[0.901134] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/custom_srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.901222] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/_custom_srv_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.901298] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/custom_srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.901402] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/libcustom_srv_demo__rosidl_generator_py.so\n'}
+[0.901503] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/srv\n'}
+[0.901887] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/srv/_can_move.py\n'}
+[0.902005] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/srv/__init__.py\n'}
+[0.902078] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/srv/_can_move_s.c\n'}
+[0.902148] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/__init__.py\n'}
+[0.902220] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/custom_srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.902306] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/_custom_srv_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.902385] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/_custom_srv_demo_s.ep.rosidl_typesupport_c.c\n'}
+[0.911313] (custom_msg_demo) StdoutLine: {'line': b"Listing '/home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo'...\n"}
+[0.911577] (custom_msg_demo) StdoutLine: {'line': b"Listing '/home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/msg'...\n"}
+[0.913062] (-) TimerEvent: {}
+[0.919525] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.920450] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.920952] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/local/lib/python3.10/dist-packages/custom_msg_demo/custom_msg_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.921801] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/libcustom_msg_demo__rosidl_generator_py.so\n'}
+[0.922064] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/msg/RobotStatus.idl\n'}
+[0.922190] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/msg/RobotStatus.msg\n'}
+[0.923476] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/custom_msg_demo/status_publisher\n'}
+[0.925435] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/lib/custom_msg_demo/status_subscriber\n'}
+[0.925880] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/package_run_dependencies/custom_msg_demo\n'}
+[0.926064] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/parent_prefix_path/custom_msg_demo\n'}
+[0.926561] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/ament_prefix_path.sh\n'}
+[0.926725] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/ament_prefix_path.dsv\n'}
+[0.926923] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/path.sh\n'}
+[0.927070] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/environment/path.dsv\n'}
+[0.927232] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.bash\n'}
+[0.927424] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.sh\n'}
+[0.927538] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.zsh\n'}
+[0.927690] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/local_setup.dsv\n'}
+[0.927991] (custom_msg_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/package.dsv\n'}
+[0.928094] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/ament_index/resource_index/packages/custom_msg_demo\n'}
+[0.928173] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_cExport.cmake\n'}
+[0.928230] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.928964] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.929290] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.929648] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_cppExport.cmake\n'}
+[0.930529] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.930630] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.931504] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.931629] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.932433] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cExport.cmake\n'}
+[0.932829] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.933817] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.933925] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.934830] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cppExport.cmake\n'}
+[0.934985] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.935689] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_pyExport.cmake\n'}
+[0.935836] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/export_custom_msg_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.936079] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[0.936283] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.936457] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.936746] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.936843] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.936914] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.936974] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.937030] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demoConfig.cmake\n'}
+[0.937097] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/cmake/custom_msg_demoConfig-version.cmake\n'}
+[0.937152] (custom_msg_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_msg_demo/share/custom_msg_demo/package.xml\n'}
+[0.939883] (custom_msg_demo) CommandEnded: {'returncode': 0}
+[0.949933] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.953100] (custom_srv_demo) StdoutLine: {'line': b"Listing '/home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo'...\n"}
+[0.953575] (custom_srv_demo) StdoutLine: {'line': b"Listing '/home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/srv'...\n"}
+[0.958257] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/custom_srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.958813] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/custom_srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.959692] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/local/lib/python3.10/dist-packages/custom_srv_demo/custom_srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.960356] (cpp_timer_showcase) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.960750] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/libcustom_srv_demo__rosidl_generator_py.so\n'}
+[0.961289] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.961703] (cpp_timer_showcase) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.962077] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/srv/CanMove.idl\n'}
+[0.962261] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/srv/CanMove.srv\n'}
+[0.962427] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/srv/CanMove_Request.msg\n'}
+[0.962709] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/srv/CanMove_Response.msg\n'}
+[0.962838] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/custom_srv_demo/can_move_server\n'}
+[0.964030] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/lib/custom_srv_demo/can_move_client\n'}
+[0.964966] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/ament_index/resource_index/package_run_dependencies/custom_srv_demo\n'}
+[0.965190] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/ament_index/resource_index/parent_prefix_path/custom_srv_demo\n'}
+[0.965388] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/ament_prefix_path.sh\n'}
+[0.965516] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/ament_prefix_path.dsv\n'}
+[0.965652] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/path.sh\n'}
+[0.965855] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/environment/path.dsv\n'}
+[0.966031] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/local_setup.bash\n'}
+[0.966214] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/local_setup.sh\n'}
+[0.966383] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/local_setup.zsh\n'}
+[0.966558] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/local_setup.dsv\n'}
+[0.966885] (custom_srv_demo) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/package.dsv\n'}
+[0.967572] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/ament_index/resource_index/packages/custom_srv_demo\n'}
+[0.967769] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_generator_cExport.cmake\n'}
+[0.967925] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.968610] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.968786] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.968987] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_generator_cppExport.cmake\n'}
+[0.969305] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.969899] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.970457] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.970653] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.971417] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_cExport.cmake\n'}
+[0.971663] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.972618] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.973803] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.974040] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_cppExport.cmake\n'}
+[0.974253] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.975687] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_generator_pyExport.cmake\n'}
+[0.975895] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/export_custom_srv_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.976104] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[0.976337] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.976544] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.976761] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.976932] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.977497] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.977707] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.977873] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demoConfig.cmake\n'}
+[0.978021] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/cmake/custom_srv_demoConfig-version.cmake\n'}
+[0.978171] (custom_srv_demo) StdoutLine: {'line': b'-- Up-to-date: /home/robotics/colcon_ws/install/custom_srv_demo/share/custom_srv_demo/package.xml\n'}
+[0.983623] (custom_msg_demo) JobEnded: {'identifier': 'custom_msg_demo', 'rc': 0}
+[0.986643] (custom_srv_demo) CommandEnded: {'returncode': 0}
+[0.987841] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.008246] (custom_srv_demo) JobEnded: {'identifier': 'custom_srv_demo', 'rc': 0}
+[1.013228] (-) TimerEvent: {}
+[1.113600] (-) TimerEvent: {}
+[1.214253] (-) TimerEvent: {}
+[1.229019] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.314620] (-) TimerEvent: {}
+[1.415362] (-) TimerEvent: {}
+[1.454675] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.515537] (-) TimerEvent: {}
+[1.569651] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.580879] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.600877] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.615706] (-) TimerEvent: {}
+[1.630397] (cpp_timer_showcase) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.663128] (cpp_timer_showcase) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.715899] (-) TimerEvent: {}
+[1.758622] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.766673] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.816061] (-) TimerEvent: {}
+[1.916524] (-) TimerEvent: {}
+[1.962548] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.012672] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.016737] (-) TimerEvent: {}
+[2.071853] (cpp_timer_showcase) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.094773] (cpp_timer_showcase) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.116894] (-) TimerEvent: {}
+[2.217103] (cpp_timer_showcase) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.217329] (-) TimerEvent: {}
+[2.217761] (cpp_timer_showcase) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.315137] (cpp_timer_showcase) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.316242] (cpp_timer_showcase) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.317603] (-) TimerEvent: {}
+[2.418024] (-) TimerEvent: {}
+[2.518012] (cpp_timer_showcase) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.518179] (-) TimerEvent: {}
+[2.544580] (cpp_timer_showcase) StdoutLine: {'line': b'-- Generating done\n'}
+[2.552418] (cpp_timer_showcase) StdoutLine: {'line': b'-- Build files have been written to: /home/robotics/colcon_ws/build/cpp_timer_showcase\n'}
+[2.560980] (cpp_timer_showcase) CommandEnded: {'returncode': 0}
+[2.561973] (cpp_timer_showcase) JobProgress: {'identifier': 'cpp_timer_showcase', 'progress': 'build'}
+[2.563266] (cpp_timer_showcase) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics/colcon_ws/build/cpp_timer_showcase', '--', '-j8', '-l8'], 'cwd': '/home/robotics/colcon_ws/build/cpp_timer_showcase', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_timer_showcase'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.618406] (-) TimerEvent: {}
+[2.625004] (cpp_timer_showcase) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/callback_group_timers_node.dir/src/callback_group_timers_node.cpp.o\x1b[0m\n'}
+[2.625395] (cpp_timer_showcase) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/basic_timer_node.dir/src/basic_timer_node.cpp.o\x1b[0m\n'}
+[2.625522] (cpp_timer_showcase) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/control_timer_node.dir/src/control_timer_node.cpp.o\x1b[0m\n'}
+[2.626393] (cpp_timer_showcase) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/multi_timer_node.dir/src/multi_timer_node.cpp.o\x1b[0m\n'}
+[2.718576] (-) TimerEvent: {}
+[2.819006] (-) TimerEvent: {}
+[2.919576] (-) TimerEvent: {}
+[3.020098] (-) TimerEvent: {}
+[3.120504] (-) TimerEvent: {}
+[3.220937] (-) TimerEvent: {}
+[3.321494] (-) TimerEvent: {}
+[3.422003] (-) TimerEvent: {}
+[3.522484] (-) TimerEvent: {}
+[3.622868] (-) TimerEvent: {}
+[3.723370] (-) TimerEvent: {}
+[3.823797] (-) TimerEvent: {}
+[3.924244] (-) TimerEvent: {}
+[4.024722] (-) TimerEvent: {}
+[4.125266] (-) TimerEvent: {}
+[4.225877] (-) TimerEvent: {}
+[4.326370] (-) TimerEvent: {}
+[4.426961] (-) TimerEvent: {}
+[4.527533] (-) TimerEvent: {}
+[4.628066] (-) TimerEvent: {}
+[4.728544] (-) TimerEvent: {}
+[4.829127] (-) TimerEvent: {}
+[4.931410] (-) TimerEvent: {}
+[5.032025] (-) TimerEvent: {}
+[5.132566] (-) TimerEvent: {}
+[5.233230] (-) TimerEvent: {}
+[5.333898] (-) TimerEvent: {}
+[5.434454] (-) TimerEvent: {}
+[5.535051] (-) TimerEvent: {}
+[5.635727] (-) TimerEvent: {}
+[5.736350] (-) TimerEvent: {}
+[5.836942] (-) TimerEvent: {}
+[5.937560] (-) TimerEvent: {}
+[6.038097] (-) TimerEvent: {}
+[6.138591] (-) TimerEvent: {}
+[6.239186] (-) TimerEvent: {}
+[6.339735] (-) TimerEvent: {}
+[6.440300] (-) TimerEvent: {}
+[6.540842] (-) TimerEvent: {}
+[6.641407] (-) TimerEvent: {}
+[6.742090] (-) TimerEvent: {}
+[6.842586] (-) TimerEvent: {}
+[6.942988] (-) TimerEvent: {}
+[7.043421] (-) TimerEvent: {}
+[7.143961] (-) TimerEvent: {}
+[7.244519] (-) TimerEvent: {}
+[7.345119] (-) TimerEvent: {}
+[7.445976] (-) TimerEvent: {}
+[7.546518] (-) TimerEvent: {}
+[7.647015] (-) TimerEvent: {}
+[7.674008] (cpp_timer_showcase) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable basic_timer_node\x1b[0m\n'}
+[7.674448] (cpp_timer_showcase) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable control_timer_node\x1b[0m\n'}
+[7.747206] (-) TimerEvent: {}
+[7.771869] (cpp_timer_showcase) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable multi_timer_node\x1b[0m\n'}
+[7.847441] (-) TimerEvent: {}
+[7.886450] (cpp_timer_showcase) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable callback_group_timers_node\x1b[0m\n'}
+[7.894889] (cpp_timer_showcase) StdoutLine: {'line': b'[100%] Built target control_timer_node\n'}
+[7.903416] (cpp_timer_showcase) StdoutLine: {'line': b'[100%] Built target basic_timer_node\n'}
+[7.947585] (-) TimerEvent: {}
+[7.951011] (cpp_timer_showcase) StdoutLine: {'line': b'[100%] Built target multi_timer_node\n'}
+[8.039861] (cpp_timer_showcase) StdoutLine: {'line': b'[100%] Built target callback_group_timers_node\n'}
+[8.047775] (-) TimerEvent: {}
+[8.055063] (cpp_timer_showcase) CommandEnded: {'returncode': 0}
+[8.056133] (cpp_timer_showcase) JobProgress: {'identifier': 'cpp_timer_showcase', 'progress': 'install'}
+[8.057714] (cpp_timer_showcase) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics/colcon_ws/build/cpp_timer_showcase'], 'cwd': '/home/robotics/colcon_ws/build/cpp_timer_showcase', 'env': OrderedDict([('HOSTNAME', 'OrdiJean'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotics'), ('OLDPWD', '/home/robotics/colcon_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/robotics/colcon_ws/build/cpp_timer_showcase'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.069496] (cpp_timer_showcase) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.070363] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/basic_timer_node\n'}
+[8.070913] (cpp_timer_showcase) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/basic_timer_node" to ""\n'}
+[8.071043] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/multi_timer_node\n'}
+[8.071521] (cpp_timer_showcase) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/multi_timer_node" to ""\n'}
+[8.071917] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/control_timer_node\n'}
+[8.072281] (cpp_timer_showcase) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/control_timer_node" to ""\n'}
+[8.072406] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/callback_group_timers_node\n'}
+[8.072837] (cpp_timer_showcase) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics/colcon_ws/install/cpp_timer_showcase/lib/cpp_timer_showcase/callback_group_timers_node" to ""\n'}
+[8.073074] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/launch\n'}
+[8.074779] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/launch/timers_demo.launch.py\n'}
+[8.075355] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/launch/timers_demo.launch.py:Zone.Identifier\n'}
+[8.076375] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/ament_index/resource_index/package_run_dependencies/cpp_timer_showcase\n'}
+[8.076678] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/ament_index/resource_index/parent_prefix_path/cpp_timer_showcase\n'}
+[8.077052] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/ament_prefix_path.sh\n'}
+[8.077281] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/ament_prefix_path.dsv\n'}
+[8.077707] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/path.sh\n'}
+[8.077905] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/environment/path.dsv\n'}
+[8.078269] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.bash\n'}
+[8.078432] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.sh\n'}
+[8.078583] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.zsh\n'}
+[8.078868] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/local_setup.dsv\n'}
+[8.078966] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/package.dsv\n'}
+[8.079263] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/ament_index/resource_index/packages/cpp_timer_showcase\n'}
+[8.079659] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/cmake/cpp_timer_showcaseConfig.cmake\n'}
+[8.079765] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/cmake/cpp_timer_showcaseConfig-version.cmake\n'}
+[8.080000] (cpp_timer_showcase) StdoutLine: {'line': b'-- Installing: /home/robotics/colcon_ws/install/cpp_timer_showcase/share/cpp_timer_showcase/package.xml\n'}
+[8.083010] (cpp_timer_showcase) CommandEnded: {'returncode': 0}
+[8.095979] (cpp_timer_showcase) JobEnded: {'identifier': 'cpp_timer_showcase', 'rc': 0}
+[8.096961] (-) EventReactorShutdown: {}

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e153671c7dde6754fb8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_parameter_showcase",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "basic_parameters_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic_parameters_node-7e6a4871da1610b6d027.json",
+					"name" : "basic_parameters_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_parameter_showcase_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_parameter_showcase_uninstall-b6a5478d677a604f80c7.json",
+					"name" : "cpp_parameter_showcase_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flexible_parameters_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flexible_parameters_node-9b825c0ae7f45a5dac82.json",
+					"name" : "flexible_parameters_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "local_only_parameters_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_only_parameters_node-ffc646bbac6fd957e2ae.json",
+					"name" : "local_only_parameters_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_monitor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_monitor_node-9ec320e9cd9ce675b4e3.json",
+					"name" : "parameter_monitor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-79937953adcbc90e5fdd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "validated_parameters_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-validated_parameters_node-b5802d77e5e748cd2b71.json",
+					"name" : "validated_parameters_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/colcon_ws/build/cpp_parameter_showcase",
+		"source" : "/home/robotics/colcon_ws/src/cpp_parameter_showcase"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

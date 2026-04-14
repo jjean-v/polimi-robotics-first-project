@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dd0e9cc268ebfcd96977.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_message_filters_showcase",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "approximate_sync_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-approximate_sync_node-90882ac6651eb916eb44.json",
+					"name" : "approximate_sync_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_message_filters_showcase_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_message_filters_showcase_uninstall-b75283d8c005ed6c9e27.json",
+					"name" : "cpp_message_filters_showcase_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exact_pair_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exact_pair_publisher-e95cf18089c58d76d995.json",
+					"name" : "exact_pair_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exact_sync_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exact_sync_node-9c13803face9e441fe7e.json",
+					"name" : "exact_sync_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-306a44c8b229da61d68b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unsync_sensor_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unsync_sensor_publisher-5741ce65ad49e34cbeb0.json",
+					"name" : "unsync_sensor_publisher",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/colcon_ws/build/cpp_message_filters_showcase",
+		"source" : "/home/robotics/colcon_ws/src/cpp_message_filters_showcase"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

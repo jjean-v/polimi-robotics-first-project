@@ -1,0 +1,45 @@
+[0.088s] Invoking command in '/home/robotics/colcon_ws/build/cpp_message_filters_showcase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_message_filters_showcase -- -j8 -l8
+[0.219s] [ 12%] [32mBuilding CXX object CMakeFiles/exact_sync_node.dir/src/exact_sync_node.cpp.o[0m
+[0.227s] [ 25%] [32mBuilding CXX object CMakeFiles/unsync_sensor_publisher.dir/src/unsync_sensor_publisher.cpp.o[0m
+[0.232s] [ 37%] [32mBuilding CXX object CMakeFiles/approximate_sync_node.dir/src/approximate_sync_node.cpp.o[0m
+[0.287s] [ 50%] [32mBuilding CXX object CMakeFiles/exact_pair_publisher.dir/src/exact_pair_publisher.cpp.o[0m
+[8.819s] [ 62%] [32m[1mLinking CXX executable unsync_sensor_publisher[0m
+[8.991s] [ 75%] [32m[1mLinking CXX executable exact_pair_publisher[0m
+[9.203s] [ 75%] Built target unsync_sensor_publisher
+[9.329s] [ 75%] Built target exact_pair_publisher
+[22.285s] [ 87%] [32m[1mLinking CXX executable exact_sync_node[0m
+[23.389s] [ 87%] Built target exact_sync_node
+[24.350s] [100%] [32m[1mLinking CXX executable approximate_sync_node[0m
+[25.389s] [100%] Built target approximate_sync_node
+[25.414s] Invoked command in '/home/robotics/colcon_ws/build/cpp_message_filters_showcase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotics/colcon_ws/build/cpp_message_filters_showcase -- -j8 -l8
+[25.422s] Invoking command in '/home/robotics/colcon_ws/build/cpp_message_filters_showcase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_message_filters_showcase
+[25.431s] -- Install configuration: ""
+[25.433s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/unsync_sensor_publisher
+[25.434s] -- Set runtime path of "/home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/unsync_sensor_publisher" to ""
+[25.435s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/exact_pair_publisher
+[25.436s] -- Set runtime path of "/home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/exact_pair_publisher" to ""
+[25.436s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/exact_sync_node
+[25.442s] -- Set runtime path of "/home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/exact_sync_node" to ""
+[25.444s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/approximate_sync_node
+[25.450s] -- Set runtime path of "/home/robotics/colcon_ws/install/cpp_message_filters_showcase/lib/cpp_message_filters_showcase/approximate_sync_node" to ""
+[25.450s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/launch
+[25.451s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/launch/unsync_demo.launch.py:Zone.Identifier
+[25.451s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/launch/exact_demo.launch.py:Zone.Identifier
+[25.451s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/launch/unsync_demo.launch.py
+[25.451s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/launch/exact_demo.launch.py
+[25.452s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/ament_index/resource_index/package_run_dependencies/cpp_message_filters_showcase
+[25.452s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/ament_index/resource_index/parent_prefix_path/cpp_message_filters_showcase
+[25.453s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/environment/ament_prefix_path.sh
+[25.454s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/environment/ament_prefix_path.dsv
+[25.454s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/environment/path.sh
+[25.454s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/environment/path.dsv
+[25.454s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/local_setup.bash
+[25.455s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/local_setup.sh
+[25.455s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/local_setup.zsh
+[25.455s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/local_setup.dsv
+[25.455s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/package.dsv
+[25.456s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/ament_index/resource_index/packages/cpp_message_filters_showcase
+[25.457s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/cmake/cpp_message_filters_showcaseConfig.cmake
+[25.457s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/cmake/cpp_message_filters_showcaseConfig-version.cmake
+[25.457s] -- Installing: /home/robotics/colcon_ws/install/cpp_message_filters_showcase/share/cpp_message_filters_showcase/package.xml
+[25.461s] Invoked command in '/home/robotics/colcon_ws/build/cpp_message_filters_showcase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotics/colcon_ws/build/cpp_message_filters_showcase

@@ -1,0 +1,18 @@
+[100%] Built target subpub
+-- Install configuration: ""
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/lib/cpp_subpub/subpub
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/ament_index/resource_index/package_run_dependencies/cpp_subpub
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/ament_index/resource_index/parent_prefix_path/cpp_subpub
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/environment/path.sh
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/environment/path.dsv
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/local_setup.bash
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/local_setup.sh
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/local_setup.zsh
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/local_setup.dsv
+-- Installing: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/package.dsv
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/ament_index/resource_index/packages/cpp_subpub
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/cmake/cpp_subpubConfig.cmake
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/cmake/cpp_subpubConfig-version.cmake
+-- Up-to-date: /home/robotics/colcon_ws/install/cpp_subpub/share/cpp_subpub/package.xml

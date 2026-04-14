@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msg_demo",
+  "non_idl_tuples": [
+    "/home/robotics/colcon_ws/src/custom_msg_demo:msg/RobotStatus.msg"
+  ]
+}
