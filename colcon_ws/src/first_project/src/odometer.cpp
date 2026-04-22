@@ -1,7 +1,8 @@
 #include <memory>
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "tf2/LinearMath/Quaternion.h"
 
+#include "nav_msgs/msg/odometry.hpp"
 #include "bunker_msgs/msg/bunker_status.hpp"
 
 using std::placeholders::_1;
@@ -10,6 +11,8 @@ class Odometer : public rclcpp::Node {
     public:
 
         Odometer(): Node("odometer") {
+
+            publisher_ = this->create_publisher<nav_msgs::msg::Odometry>("/project_odom", 10);
             subscription_ = this->create_subscription<bunker_msgs::msg::BunkerStatus>("/bunker_status", 10, std::bind(&Odometer::topic_callback, this, _1));
 
         }
@@ -17,9 +20,32 @@ class Odometer : public rclcpp::Node {
     private:
         
         void topic_callback(const bunker_msgs::msg::BunkerStatus::SharedPtr msg) const {
-            RCLCPP_INFO(this->get_logger(), "vehicle state:'%u'\n control_mode:'%u'\n battery_voltage:'%f'", msg->vehicle_state, msg->control_mode, msg->battery_voltage);
+            nav_msgs::msg::Odometry odom_msg;
+            // odom_msg.header.stamp = this->get_clock()->now();
+            odom_msg.header.frame_id = "odom";
+            odom_msg.child_frame_id = "base_link2";
+
+            // For demonstration, we use set position and orientation values
+            odom_msg.pose.pose.position.x = 1.0;
+            odom_msg.pose.pose.position.y = 1.0;
+            odom_msg.pose.pose.position.z = 1.0;
+
+            tf2::Quaternion q;
+            q.setRPY(0.0, 0.0, 0.0);
+
+            odom_msg.pose.pose.orientation.x = q.x();
+            odom_msg.pose.pose.orientation.y = q.y();
+            odom_msg.pose.pose.orientation.z = q.z();
+            odom_msg.pose.pose.orientation.w = q.w();
+
+            RCLCPP_INFO(this->get_logger(), "\nReceiving:\n Linear velocity: '%f'\n Angular velocity: '%f'\n Battery voltage: '%f'", msg->linear_velocity, msg->angular_velocity, msg->battery_voltage);
+            RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n position x:'%f'\n position y:'%f'\n position z:'%f'", odom_msg.pose.pose.position.x, odom_msg.pose.pose.position.y, odom_msg.pose.pose.position.z);
+
+            publisher_->publish(odom_msg);
+
         }
 
+        rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr publisher_;
         rclcpp::Subscription<bunker_msgs::msg::BunkerStatus>::SharedPtr subscription_;
 };
 

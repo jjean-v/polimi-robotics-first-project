@@ -10,13 +10,21 @@ find_package(rclcpp REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 find_package(bunker_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+
 # find dependencies
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
 add_executable(odometer src/odometer.cpp)
-ament_target_dependencies(odometer rclcpp bunker_msgs)
+ament_target_dependencies(odometer 
+  rclcpp  
+  bunker_msgs 
+  nav_msgs 
+  tf2
+)
 
 
 install(TARGETS
