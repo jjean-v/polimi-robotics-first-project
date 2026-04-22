@@ -49,12 +49,17 @@ $ ros2 run first_project odometry_node
 here's what you should see in the terminal:
 
 ```shell
-[INFO] [XXXXXX.XXXXXX] [odometer]: vehicle state:'0'
- control_mode:'0'
- battery_voltage:'52.799999'
-[INFO] [XXXXXX.XXXXXX] [odometer]: vehicle state:'0'
- control_mode:'0'
- battery_voltage:'52.799999'
+[INFO] [XXXXX.XXXXX] [odometer]:
+Receiving:
+ Linear velocity: '0.594000'
+ Angular velocity: '-0.020000'
+ Battery voltage: '52.500000'
+[INFO] [XXXXX.XXXXX] [odometer]:
+Publishing:
+ Odometer message:
+ position x:'1.000000'
+ position y:'1.000000'
+ position z:'1.000000'
 ```
 You can also check the topics are the nodes that are being published using:
 
@@ -63,12 +68,20 @@ $ ros2 topic list
 $ ros2 node list
 ```
 
+## Roadmap
+
+[x] Create Odometer node 
+[x] Odometer node subscribe to the bunker_status message 
+[x] Odometer node publish the odometry message to /project_odom topic
+[ ] Compute the real odometry and publish it to /project_odom topic
+[ ] Use tf2 to publish the transform between the odometry frame and the base frame
+
+
+
 ## Installation
 Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
