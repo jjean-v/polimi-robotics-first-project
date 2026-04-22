@@ -17,7 +17,7 @@ class Odometer : public rclcpp::Node {
     private:
         
         void topic_callback(const bunker_msgs::msg::BunkerStatus::SharedPtr msg) const {
-            RCLCPP_INFO(this->get_logger(), "I heard: '%u'", msg->vehicle_state);
+            RCLCPP_INFO(this->get_logger(), "vehicle state:'%u'\n control_mode:'%u'\n battery_voltage:'%f'", msg->vehicle_state, msg->control_mode, msg->battery_voltage);
         }
 
         rclcpp::Subscription<bunker_msgs::msg::BunkerStatus>::SharedPtr subscription_;
