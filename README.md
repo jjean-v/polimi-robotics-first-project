@@ -70,11 +70,11 @@ $ ros2 node list
 
 ## Roadmap
 
-[x] Create Odometer node 
-[x] Odometer node subscribe to the bunker_status message 
-[x] Odometer node publish the odometry message to /project_odom topic
-[ ] Compute the real odometry and publish it to /project_odom topic
-[ ] Use tf2 to publish the transform between the odometry frame and the base frame
+- [x] Create Odometer node 
+- [x] Odometer node subscribe to the bunker_status message 
+- [x] Odometer node publish the odometry message to /project_odom topic
+- [ ] Compute the real odometry and publish it to /project_odom topic
+- [ ] Use tf2 to publish the transform between the odometry frame and the base frame
 
 
 
