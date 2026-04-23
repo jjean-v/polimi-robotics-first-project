@@ -47,10 +47,11 @@ class Odometer : public rclcpp::Node {
 
             const double dt = std::max(0.0, (current_time - last_time_).seconds());
 
-            
             const double linear_velocity = static_cast<double>(msg->linear_velocity);
             const double angular_velocity = static_cast<double>(msg->angular_velocity);
-
+            
+            RCLCPP_INFO(this->get_logger(), "\nReceiving:\n Linear velocity: '%f'\n Angular velocity: '%f'\n Battery voltage: '%f'", linear_velocity, angular_velocity, msg->battery_voltage);
+            
             // Euler
             x_ += linear_velocity * std::cos(theta_) * dt;
             y_ += linear_velocity * std::sin(theta_) * dt;
@@ -68,31 +69,39 @@ class Odometer : public rclcpp::Node {
             // const double sin_prev = std::sin(theta_);
             // const double cos_prev = std::cos(theta_);
 
-            nav_msgs::msg::Odometry odom_msg;
-            odom_msg.header.stamp = current_time;
-            odom_msg.header.frame_id = "odom";
-            odom_msg.child_frame_id = "base_link2";
-
-            // For demonstration, we use set position and orientation values
-            odom_msg.pose.pose.position.x = x_;
-            odom_msg.pose.pose.position.y = y_;
-            odom_msg.pose.pose.position.z = 0.0;
-
-            tf2::Quaternion q;
-            q.setRPY(0.0, 0.0, theta_);
-
-            odom_msg.pose.pose.orientation.x = q.x();
-            odom_msg.pose.pose.orientation.y = q.y();
-            odom_msg.pose.pose.orientation.z = q.z();
-            odom_msg.pose.pose.orientation.w = q.w();
-
-            RCLCPP_INFO(this->get_logger(), "\nReceiving:\n Linear velocity: '%f'\n Angular velocity: '%f'\n Battery voltage: '%f'", linear_velocity, angular_velocity, msg->battery_voltage);
-            RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n position x:'%f'\n position y:'%f'\n angle theta:'%f'", x_, y_, theta_);
-
-            publisher_->publish(odom_msg);
+            publish_odometry(current_time, linear_velocity, angular_velocity);
 
             last_time_ = current_time;
 
+        }
+
+        void publish_odometry(
+            const rclcpp::Time & stamp,
+            const double linear_velocity,
+            const double angular_velocity
+            ) {
+                nav_msgs::msg::Odometry odom_msg;
+                odom_msg.header.stamp = stamp;
+                odom_msg.header.frame_id = "odom";
+                odom_msg.child_frame_id = "base_link2";
+
+                odom_msg.pose.pose.position.x = x_;
+                odom_msg.pose.pose.position.y = y_;
+                odom_msg.pose.pose.position.z = 0.0;
+            
+                tf2::Quaternion q;
+                q.setRPY(0.0, 0.0, theta_);
+                odom_msg.pose.pose.orientation.x = q.x();
+                odom_msg.pose.pose.orientation.y = q.y();
+                odom_msg.pose.pose.orientation.z = q.z();
+                odom_msg.pose.pose.orientation.w = q.w();
+
+                odom_msg.twist.twist.linear.x = linear_velocity;
+                odom_msg.twist.twist.angular.z = angular_velocity;
+
+                RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n position x:'%f'\n position y:'%f'\n angle theta:'%f'", x_, y_, theta_);
+
+                publisher_->publish(odom_msg);
         }
 
         rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr publisher_;
