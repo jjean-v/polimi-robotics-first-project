@@ -9,6 +9,8 @@
 
 // tf includes
 #include "tf2/LinearMath/Quaternion.h"
+#include "geometry_msgs/msg/transform_stamped.hpp"
+#include "tf2_ros/transform_broadcaster.h"
 
 // message includes
 #include "nav_msgs/msg/odometry.hpp"
@@ -38,6 +40,8 @@ class Odometer : public rclcpp::Node {
                 "reset",
                 std::bind(&Odometer::handle_reset_request, this, _1, _2)
             );
+
+            tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
 
             last_time_ = rclcpp::Time(0, 0, RCL_ROS_TIME);
         }
@@ -77,7 +81,10 @@ class Odometer : public rclcpp::Node {
             // const double sin_prev = std::sin(theta_);
             // const double cos_prev = std::cos(theta_);
 
-            publish_odometry(current_time, linear_velocity, angular_velocity);
+            tf2::Quaternion q;
+            q.setRPY(0.0, 0.0, theta_);
+
+            publish_odometry(current_time, linear_velocity, angular_velocity, q);
 
             last_time_ = current_time;
 
@@ -86,7 +93,8 @@ class Odometer : public rclcpp::Node {
         void publish_odometry(
             const rclcpp::Time & stamp,
             const double linear_velocity,
-            const double angular_velocity
+            const double angular_velocity,
+            const tf2::Quaternion & q
             ) {
                 nav_msgs::msg::Odometry odom_msg;
                 odom_msg.header.stamp = stamp;
@@ -97,8 +105,6 @@ class Odometer : public rclcpp::Node {
                 odom_msg.pose.pose.position.y = y_;
                 odom_msg.pose.pose.position.z = 0.0;
             
-                tf2::Quaternion q;
-                q.setRPY(0.0, 0.0, theta_);
                 odom_msg.pose.pose.orientation.x = q.x();
                 odom_msg.pose.pose.orientation.y = q.y();
                 odom_msg.pose.pose.orientation.z = q.z();
@@ -112,6 +118,28 @@ class Odometer : public rclcpp::Node {
                 publisher_->publish(odom_msg);
         }
 
+        void publish_transform(
+            const rclcpp::Time & stamp,
+            const tf2::Quaternion & q
+            ) {
+                geometry_msgs::msg::TransformStamped t;
+
+                t.header.stamp = stamp;
+                t.header.frame_id = "odom";
+                t.child_frame_id = "base_link2";
+
+                t.transform.translation.x = x_;
+                t.transform.translation.y = y_;
+                t.transform.translation.z = 0.0;
+
+                t.transform.rotation.x = q.x();
+                t.transform.rotation.y = q.y();
+                t.transform.rotation.z = q.z();
+                t.transform.rotation.w = q.w();
+
+                tf_broadcaster_->sendTransform(t);
+        }
+
         void handle_reset_request(
             const std::shared_ptr<first_project::srv::Reset::Request> /*request*/,
             std::shared_ptr<first_project::srv::Reset::Response> /*response*/) {
@@ -121,8 +149,9 @@ class Odometer : public rclcpp::Node {
                 theta_ = 0.0;
         }
 
-        rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr publisher_;
         rclcpp::Subscription<bunker_msgs::msg::BunkerStatus>::SharedPtr subscription_;
+        rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr publisher_;
+        std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
         rclcpp::Service<first_project::srv::Reset>::SharedPtr reset_service_;
         rclcpp::Time last_time_;
         double x_ = 0.0;
