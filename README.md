@@ -33,7 +33,7 @@ $ tmux new -s session1
 In the first terminal, launch the bag file:
 
 ```shell
-$ ros2 bag play bags/rosbag2_2026_04_08-16_41_35_fixed/rosbag2_2026_04_08-16_41_35_fixed_0.db3
+$ ros2 bag play bags/rosbag2_2026_04_08-16_41_35_fixed/rosbag2_2026_04_08-16_41_35_fixed_0.db3 --clock
 ```
 You'll see that you can control the speed of the bag file using the arrow keys, and the space bar to pause and resume the playback.
 
@@ -44,7 +44,7 @@ First to create a new terminal in tmux, press `Ctrl+b` then `"`.
 Then launch the node:
 
 ```shell
-$ ros2 run first_project odometry_node
+$ ros2 launch first_project first_project.launch.py
 ```
 here's what you should see in the terminal:
 
