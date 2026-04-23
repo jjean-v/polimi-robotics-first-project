@@ -1,11 +1,27 @@
+#include <chrono>
+#include <cmath>
+#include <functional>
 #include <memory>
+#include <string>
+
+// standard ros2 include
 #include "rclcpp/rclcpp.hpp"
+
+// tf includes
 #include "tf2/LinearMath/Quaternion.h"
 
+// custom message includes
 #include "nav_msgs/msg/odometry.hpp"
 #include "bunker_msgs/msg/bunker_status.hpp"
 
+// for easier writing, so we can write 500ms 
+// instead of std::chrono::milliseconds(500)
+using namespace std::chrono_literals;
+
+// Placeholders for std::bind, so we can write _1 and _2 
+// instead of std::placeholders::_1
 using std::placeholders::_1;
+using std::placeholders::_2;
 
 class Odometer : public rclcpp::Node {
     public:
