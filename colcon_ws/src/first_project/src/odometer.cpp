@@ -132,8 +132,8 @@ class Odometer : public rclcpp::Node {
 
 int main(int argc, char * argv[])
 {
-  rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<Odometer>());
-  rclcpp::shutdown();
-  return 0;
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<Odometer>());
+    rclcpp::shutdown();
+    return 0;
 }
