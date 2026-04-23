@@ -10,9 +10,12 @@
 // tf includes
 #include "tf2/LinearMath/Quaternion.h"
 
-// custom message includes
+// message includes
 #include "nav_msgs/msg/odometry.hpp"
 #include "bunker_msgs/msg/bunker_status.hpp"
+
+// service includes
+#include "first_project/srv/reset.hpp"
 
 // for easier writing, so we can write 500ms 
 // instead of std::chrono::milliseconds(500)
@@ -30,6 +33,11 @@ class Odometer : public rclcpp::Node {
 
             publisher_ = this->create_publisher<nav_msgs::msg::Odometry>("/project_odom", 10);
             subscription_ = this->create_subscription<bunker_msgs::msg::BunkerStatus>("/bunker_status", 10, std::bind(&Odometer::topic_callback, this, _1));
+
+            reset_service_ = this->create_service<first_project::srv::Reset>(
+                "reset",
+                std::bind(&Odometer::handle_reset_request, this, _1, _2)
+            );
 
             last_time_ = rclcpp::Time(0, 0, RCL_ROS_TIME);
         }
@@ -104,8 +112,18 @@ class Odometer : public rclcpp::Node {
                 publisher_->publish(odom_msg);
         }
 
+        void handle_reset_request(
+            const std::shared_ptr<first_project::srv::Reset::Request> /*request*/,
+            std::shared_ptr<first_project::srv::Reset::Response> /*response*/) {
+                RCLCPP_INFO(this->get_logger(), "Reset request received. Resetting odometry.");
+                x_ = 0.0;
+                y_ = 0.0;
+                theta_ = 0.0;
+        }
+
         rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr publisher_;
         rclcpp::Subscription<bunker_msgs::msg::BunkerStatus>::SharedPtr subscription_;
+        rclcpp::Service<first_project::srv::Reset>::SharedPtr reset_service_;
         rclcpp::Time last_time_;
         double x_ = 0.0;
         double y_ = 0.0;
@@ -114,8 +132,8 @@ class Odometer : public rclcpp::Node {
 
 int main(int argc, char * argv[])
 {
-  rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<Odometer>());
-  rclcpp::shutdown();
-  return 0;
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<Odometer>());
+    rclcpp::shutdown();
+    return 0;
 }

@@ -18,6 +18,18 @@ find_package(tf2 REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+set(srv_files
+  "srv/Reset.srv"
+)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${srv_files}
+)
+
+rosidl_get_typesupport_target(cpp_typesupport_target
+  ${PROJECT_NAME} "rosidl_typesupport_cpp"
+)
+
 add_executable(odometer src/odometer.cpp)
 ament_target_dependencies(odometer 
   rclcpp  
@@ -25,6 +37,10 @@ ament_target_dependencies(odometer
   nav_msgs 
   tf2
 )
+
+
+target_link_libraries(odometer "${cpp_typesupport_target}")
+
 
 
 install(TARGETS

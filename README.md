@@ -68,6 +68,12 @@ $ ros2 topic list
 $ ros2 node list
 ```
 
+To call the reset service, you can use the following command in a third terminal:
+
+```shell
+$  ros2 service call /reset first_project/srv/Reset
+```
+
 ## Roadmap
 
 - [x] Create Odometer node 
@@ -75,6 +81,7 @@ $ ros2 node list
 - [x] Odometer node publish the odometry message to /project_odom topic
 - [ ] Compute the real odometry and publish it to /project_odom topic
 - [ ] Use tf2 to publish the transform between the odometry frame and the base frame
+- [x] Create a service to reset the odometry
 
 
 
