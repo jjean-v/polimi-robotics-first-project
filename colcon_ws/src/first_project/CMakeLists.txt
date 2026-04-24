@@ -45,6 +45,10 @@ target_link_libraries(odometer "${cpp_typesupport_target}")
 
 
 
+target_link_libraries(odometer "${cpp_typesupport_target}")
+
+
+
 install(TARGETS
   odometer
   DESTINATION lib/${PROJECT_NAME}
