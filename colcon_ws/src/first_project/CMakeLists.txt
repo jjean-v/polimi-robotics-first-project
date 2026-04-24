@@ -12,6 +12,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(bunker_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2 REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
 
 # find dependencies
 # uncomment the following section in order to fill in
@@ -36,7 +38,11 @@ ament_target_dependencies(odometer
   bunker_msgs 
   nav_msgs 
   tf2
+  geometry_msgs
+  tf2_ros
 )
+target_link_libraries(odometer "${cpp_typesupport_target}")
+
 
 
 target_link_libraries(odometer "${cpp_typesupport_target}")

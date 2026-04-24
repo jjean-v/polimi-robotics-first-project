@@ -41,7 +41,7 @@ Now we will launch the node that computes the odometry in a second terminal:
 
 First to create a new terminal in tmux, press `Ctrl+b` then `"`.
 
-Then launch the node:
+Then launch the node, it will also launch rviz2 with a pre-configured view:
 
 ```shell
 $ ros2 launch first_project first_project.launch.py
@@ -81,8 +81,9 @@ $  ros2 service call /reset first_project/srv/Reset
 - [x] Odometer node publish the odometry message to /project_odom topic
 - [ ] Compute the real odometry and publish it to /project_odom topic
 - [ ] Use tf2 to publish the transform between the odometry frame and the base frame
-- [x] Create a service to reset the odometry
-
+- [x] Create a launch file to launch the node and rviz2 with a pre-configured view
+- [ ] Change te launch file to be able to launch rviz2 without absolute path to the config file
+- [x] Add a service to reset the odometry to zero
 
 
 ## Installation
