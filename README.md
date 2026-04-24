@@ -83,6 +83,7 @@ $  ros2 service call /reset first_project/srv/Reset
 - [ ] Use tf2 to publish the transform between the odometry frame and the base frame
 - [x] Create a launch file to launch the node and rviz2 with a pre-configured view
 - [ ] Change te launch file to be able to launch rviz2 without absolute path to the config file
+- [x] Add a service to reset the odometry to zero
 
 
 ## Installation
