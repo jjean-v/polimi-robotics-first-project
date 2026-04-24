@@ -85,6 +85,7 @@ class Odometer : public rclcpp::Node {
             q.setRPY(0.0, 0.0, theta_);
 
             publish_odometry(current_time, linear_velocity, angular_velocity, q);
+            publish_transform(current_time, q);
 
             last_time_ = current_time;
 
