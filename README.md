@@ -6,9 +6,6 @@
 
 The goal of this group project is to emulate the movement of a robot using ros. Compute its odometry, and then show the difference between the actual movement and the computed odometry
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
 ## Usage
 
 Here is a rapid exemple on how to launch the node to check if everything is working properly
@@ -68,11 +65,26 @@ $ ros2 topic list
 $ ros2 node list
 ```
 
+To call the tf_error node, you can use the following command in a third terminal:
+
+```shell
+$ ros2 run first_project tf_error
+```
+
+The input should look like this:
+
+```shell
+tf_error: 0.012657581828534603
+time_from_start: 450
+travelled_distance: 148.35484313964844
+```
+
 To call the reset service, you can use the following command in a third terminal:
 
 ```shell
 $  ros2 service call /reset first_project/srv/Reset
 ```
+
 
 ## Roadmap
 
@@ -80,16 +92,8 @@ $  ros2 service call /reset first_project/srv/Reset
 - [x] Odometer node subscribe to the bunker_status message 
 - [x] Odometer node publish the odometry message to /project_odom topic
 - [ ] Compute the real odometry and publish it to /project_odom topic
-- [ ] Use tf2 to publish the transform between the odometry frame and the base frame
+- [x] Use tf2 to publish the transform between the odometry frame and the base frame
 - [x] Create a launch file to launch the node and rviz2 with a pre-configured view
-- [ ] Change te launch file to be able to launch rviz2 without absolute path to the config file
+- [ ] Change the launch file to be able to launch rviz2 without absolute path to the config file
 - [x] Add a service to reset the odometry to zero
-
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- [x] Create the tf_error node and publish the error between the odometry and the real position to a topic
