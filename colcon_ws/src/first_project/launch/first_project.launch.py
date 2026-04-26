@@ -10,10 +10,10 @@ def generate_launch_description():
             executable='odometer',
             parameters=[{'use_sim_time': True}],
         ),
-        Node(
-            package='first_project',
-            executable='tf_error',
-        ),
+        # Node(
+        #     package='first_project',
+        #     executable='tf_error',
+        # ),
         Node(
             package='rviz2',
             namespace='',
