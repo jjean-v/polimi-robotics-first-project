@@ -71,23 +71,6 @@ class Odometer : public rclcpp::Node {
             const double rpm_left = static_cast<double>(msg->actuator_states[1].rpm);
             
             RCLCPP_INFO(this->get_logger(), "\nReceiving:\n RPM left: '%f'\n RPM right: '%f'\n Battery voltage: '%f'", rpm_left, rpm_right, msg->battery_voltage);
-            
-            // Euler
-            // x_ += linear_velocity * std::cos(theta_) * dt;
-            // y_ += linear_velocity * std::sin(theta_) * dt;
-            // theta_ += angular_velocity * dt;
-
-            // RK2
-            // x_ += linear_velocity * std::cos(theta_ + angular_velocity * dt / 2) * dt;
-            // y_ += linear_velocity * std::sin(theta_ + angular_velocity * dt / 2) * dt;
-            // theta_ += angular_velocity * dt;
-
-            // Exact
-            // theta_ += angular_velocity * dt;
-            // x_ += linear_velocity / angular_velocity * (std::sin(theta_) - sin_prev);
-            // y_ -= linear_velocity / angular_velocity * (std::cos(theta_) - cos_prev);
-            // const double sin_prev = std::sin(theta_);
-            // const double cos_prev = std::cos(theta_);
 
             tf2::Quaternion q;
             q.setRPY(0.0, 0.0, theta_);
@@ -133,9 +116,9 @@ class Odometer : public rclcpp::Node {
                 odom_msg.twist.twist.linear.x = linear_velocity;
                 odom_msg.twist.twist.angular.z = angular_velocity;
 
-                // RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n position x:'%f'\n position y:'%f'\n angle theta:'%f'", x_, y_, theta_);
+                RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n position x:'%f'\n position y:'%f'\n angle theta:'%f'", x_, y_, theta_);
                 // For debugging purposes
-                RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n linear velocity:'%f'\n angular vel:'%f'\n", linear_velocity, angular_velocity);
+                // RCLCPP_INFO(this->get_logger(), "\nPublishing:\n Odometer message:\n linear velocity:'%f'\n angular vel:'%f'\n", linear_velocity, angular_velocity);
 
                 publisher_->publish(odom_msg);
         }
