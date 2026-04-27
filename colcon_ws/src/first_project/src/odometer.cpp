@@ -24,7 +24,7 @@
 
 #define COMPUTED_GEAR_RATIO 0.04969097624
 #define WHEEL_RADIUS 0.225
-#define LENGTH_BETWEEN_WHEELS 0.635
+#define LENGTH_BETWEEN_WHEELS 0.700
 
 // Placeholders for std::bind, so we can write _1 and _2 
 using std::placeholders::_1;
