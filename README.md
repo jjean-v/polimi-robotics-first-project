@@ -82,7 +82,7 @@ travelled_distance: 148.35484313964844
 To call the reset service, you can use the following command in a third terminal:
 
 ```shell
-$  ros2 service call /reset first_project/srv/Reset
+$  ros2 service call /reset first_project/srv/Reset {}
 ```
 
 
@@ -91,9 +91,9 @@ $  ros2 service call /reset first_project/srv/Reset
 - [x] Create Odometer node 
 - [x] Odometer node subscribe to the bunker_status message 
 - [x] Odometer node publish the odometry message to /project_odom topic
-- [ ] Compute the real odometry and publish it to /project_odom topic
+- [x] Compute the real odometry and publish it to /project_odom topic
 - [x] Use tf2 to publish the transform between the odometry frame and the base frame
 - [x] Create a launch file to launch the node and rviz2 with a pre-configured view
-- [ ] Change the launch file to be able to launch rviz2 without absolute path to the config file
+- [x] Change the launch file to be able to launch rviz2 without absolute path to the config file
 - [x] Add a service to reset the odometry to zero
 - [x] Create the tf_error node and publish the error between the odometry and the real position to a topic

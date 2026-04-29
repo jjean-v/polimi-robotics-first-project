@@ -41,8 +41,8 @@ class TfError : public rclcpp::Node {
     private:
 
         double distance_travelled_ = 0.0;
-        double prev_x = -1.0;
-        double prev_y = -1.0;
+        double prev_x = 0.0;
+        double prev_y = 0.0;
         rclcpp::Time start_time_;
         
         void on_timer() {
@@ -75,6 +75,7 @@ class TfError : public rclcpp::Node {
 
                 prev_x = dx;
                 prev_y = dy;
+
             } catch (const tf2::TransformException & ex) {
                 RCLCPP_WARN(this->get_logger(), "Lookup odom->base_link failed: %s", ex.what());
             }
