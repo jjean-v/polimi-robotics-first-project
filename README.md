@@ -85,6 +85,17 @@ To call the reset service, you can use the following command in a third terminal
 $  ros2 service call /reset first_project/srv/Reset {}
 ```
 
+One of the bag is not centerd, so you can set the initial position of the robot using the parameters x, y and theta when you calling the node
+
+```shell
+$ ros2 run first_project odometer --ros-args -p x:=9.6292 -p y:=-4.3659 -p theta:=2.07
+```
+
+Or when calling the launch file:
+
+```shell
+$ ros2 launch first_project first_project.launch.py x:=9.6292 y:=-4.3659 theta:=2.07
+```
 
 ## Roadmap
 
@@ -97,3 +108,4 @@ $  ros2 service call /reset first_project/srv/Reset {}
 - [x] Change the launch file to be able to launch rviz2 without absolute path to the config file
 - [x] Add a service to reset the odometry to zero
 - [x] Create the tf_error node and publish the error between the odometry and the real position to a topic
+- [x] Add a parameter to the odometer node to set the initial position of the robot, useful for the not centered bag files

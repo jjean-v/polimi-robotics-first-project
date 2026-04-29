@@ -1,14 +1,29 @@
 import os
 from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
 from launch_ros.actions import Node
+from launch.substitutions import LaunchConfiguration
 
 
 def generate_launch_description():
+
+    x = DeclareLaunchArgument("x", default_value="0.0")
+    y = DeclareLaunchArgument("y", default_value="0.0")
+    theta = DeclareLaunchArgument("theta", default_value="0.0")
+
     return LaunchDescription([
+        x,
+        y,
+        theta,
         Node(
             package='first_project',
             executable='odometer',
-            parameters=[{'use_sim_time': True}],
+            parameters=[
+                {'use_sim_time': True},
+                {'x': LaunchConfiguration('x')},
+                {'y': LaunchConfiguration('y')},
+                {'theta': LaunchConfiguration('theta')}
+                ],
         ),
         Node(
             package='first_project',

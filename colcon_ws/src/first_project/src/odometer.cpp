@@ -48,13 +48,23 @@ class Odometer : public rclcpp::Node {
             tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
 
             last_time_ = rclcpp::Time(0, 0, RCL_ROS_TIME);
+
+            // We declare the parametersx, y and theta with default values of 0.0, so that we can set them to different values if needed
+            // Useful for the not cented bag files 
+            this->declare_parameter<double>("x", 0.0);
+            this->declare_parameter<double>("y", 0.0);
+            this->declare_parameter<double>("theta", 0.0);
+            x_ = this->get_parameter("x").as_double();
+            y_ = this->get_parameter("y").as_double();
+            theta_ = this->get_parameter("theta").as_double();
+
         }
 
     private:
         
-        double x_ = 0.0;
-        double y_ = 0.0;
-        double theta_ = 0.0;
+        double x_;
+        double y_;
+        double theta_;
         
         void topic_callback(const bunker_msgs::msg::BunkerStatus::SharedPtr msg) {
 
