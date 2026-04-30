@@ -3,6 +3,14 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
+from ament_index_python.packages import get_package_share_directory
+
+
+rviz_config = os.path.join(
+    get_package_share_directory('first_project'),
+    'config',
+    'first_project_config.rviz'
+)
 
 
 def generate_launch_description():
@@ -34,6 +42,6 @@ def generate_launch_description():
             namespace='',
             executable='rviz2',
             name='rviz2',
-            arguments=['-d', [os.path.join('colcon_ws','src','first_project', 'config', 'first_project_config.rviz')]],
+            arguments=['-d', rviz_config],
         )
     ])
