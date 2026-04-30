@@ -88,13 +88,13 @@ $  ros2 service call /reset first_project/srv/Reset {}
 One of the bag is not centerd, so you can set the initial position of the robot using the parameters x, y and theta when you calling the node
 
 ```shell
-$ ros2 run first_project odometer --ros-args -p x:=9.6292 -p y:=-4.3659 -p theta:=2.07
+$ ros2 run first_project odometer --ros-args -p x:=11.273 -p y:=-7.158 -p theta:=2.134
 ```
 
 Or when calling the launch file:
 
 ```shell
-$ ros2 launch first_project first_project.launch.py x:=9.6292 y:=-4.3659 theta:=2.07
+$ ros2 launch first_project first_project.launch.py x:=11.273 y:=-7.158 theta:=2.134
 ```
 
 ## Roadmap
