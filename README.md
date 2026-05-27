@@ -24,7 +24,7 @@ $ source install/setup.bash
 Launch tmux to have several terminals in the same window, it will be useful for the next steps:
 
 ```shell
-$ tmux new -s session1
+$ tmux new -s session-1
 ```
 
 In the first terminal, launch the bag file:
